@@ -245,7 +245,7 @@ reglas = str(input(f"Ok {el_jugador.nombre} vamos a jugar quieres que te expliqu
 if reglas == "s":
     explicar_reglas()
 else:
-    print("Bueno igual no te iba a explicar ni mrda")
+    print("Bueno, ya que así lo quieres prodigamos con el juego ")
 time.sleep(1.5)
 ronda1()
 #--- </Algoritmo> ---
