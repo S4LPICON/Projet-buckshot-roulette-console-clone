@@ -143,6 +143,7 @@ def dispararle_al_oponente():
 #funcion para la logica del oponente ia
 #no sabra realmente el orden de los cartuchos
 #manejo completo de aleatoriedad y probabilidad
+#se debe mejorar ya que la decisión es aleatoria al 100%
 def inteligencia_oponente():
     global jugada
     jugada = "ia"
@@ -162,7 +163,7 @@ def bajar_desfibri():
 # mensajes para ecplicar las reglas
 #aunque que hueva hacer eso xd
 def explicar_reglas():
-    print("No te explico ni vrga vamo a juga")
+    print("Aquí se deben explicar las reglas ")
 
 # funcuon que se usa luego de disparar ya que resta una bala (la que se gasto)
 # a las variables y lo muestra en pantalla
@@ -245,7 +246,11 @@ reglas = str(input(f"Ok {el_jugador.nombre} vamos a jugar quieres que te expliqu
 if reglas == "s":
     explicar_reglas()
 else:
-    print("Bueno, ya que así lo quieres prodigamos con el juego ")
+    print("Bueno, ya que así lo quieres prosigamos con el juego ")
 time.sleep(1.5)
 ronda1()
 #--- </Algoritmo> ---
+
+
+#ultimo cambio por hoy no se hizo mucho por estar trabajando en otro proyecto más grande luego lo subiré, también quiero empezar a hacer proyectos en Java y c++ o C
+#Puedes usar para lo que quieras este código incluso monetizar de cualquier manera (cosa completamente imposible) solo dejando crédito 
